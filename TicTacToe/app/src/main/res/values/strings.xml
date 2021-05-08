@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="back_to_menu">back to menu</string>
+    <string name="game_reset">reset</string>
+    <string name="player_one_score">0</string>
+    <string name="player_two_score">0</string>
+    <string name="easy_mode">Easy</string>
+    <string name="impossible_mode">Impossible?</string>
+
+    <string-array name="rounds">
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+</resources>

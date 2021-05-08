@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/match_item_layout"
+        android:background="@color/buttons"
+        android:layout_margin="10dp"
+>
+    <TextView
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:id="@+id/match_winner"
+            android:textColor="@color/white"
+            android:layout_centerVertical="true"
+            android:textSize="20sp"
+            android:text="P1"
+            android:background="@color/buttonsDarker"
+            android:gravity="center"
+    />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/match_stats"
+            android:layout_toEndOf="@+id/match_winner"
+            android:textColor="@color/white"
+            android:layout_centerVertical="true"
+            android:textSize="50sp"
+            android:text="3 - 2"
+            android:gravity="center"
+            android:layout_marginStart="100dp"/>
+
+</RelativeLayout>

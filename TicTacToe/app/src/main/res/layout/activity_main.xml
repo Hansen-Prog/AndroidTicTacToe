@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/root_layout"
+        android:background="@drawable/american"
+        tools:context=".MainActivity">
+
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+            <TextView
+                    android:id="@+id/info_GameOver"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Game Over"
+                    android:textSize="50sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:background="@color/buttons"
+                    android:gravity="center"
+                    android:visibility="gone">
+
+            </TextView>
+
+            <Button
+
+                    android:id="@+id/table_tile_1"
+                    android:onClick="game"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:textSize="50sp"
+                    android:text=""
+                    android:tag="1"
+            />
+            <Button
+
+                    android:id="@+id/table_tile_2"
+                    android:onClick="game"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:textSize="50sp"
+                    android:text=""
+                    android:tag="2"
+            />
+            <Button
+                    android:id="@+id/table_tile_3"
+                    android:onClick="game"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:textSize="50sp"
+                    android:text=""
+                    android:tag="3"
+            />
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+            <Button
+
+                    android:id="@+id/table_tile_4"
+                    android:onClick="game"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:textSize="50sp"
+                    android:text=""
+                    android:tag="4"
+            />
+            <Button
+
+                    android:id="@+id/table_tile_5"
+                    android:onClick="game"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:textSize="50sp"
+                    android:text=""
+                    android:tag="5"
+            />
+            <Button
+                    android:id="@+id/table_tile_6"
+                    android:onClick="game"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:textSize="50sp"
+                    android:text=""
+                    android:tag="6"
+            />
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:textSize="50sp"
+                android:layout_weight="1">
+
+            <Button
+
+                    android:id="@+id/table_tile_7"
+                    android:onClick="game"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:textSize="50sp"
+                    android:text=""
+                    android:tag="7"
+            />
+            <Button
+
+                    android:id="@+id/table_tile_8"
+                    android:onClick="game"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:textSize="50sp"
+                    android:text=""
+                    android:tag="8"
+            />
+            <Button
+                    android:id="@+id/table_tile_9"
+                    android:onClick="game"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:textSize="50sp"
+                    android:text=""
+                    android:tag="9"
+            />
+        </LinearLayout>
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+            <TextView
+
+                    android:id="@+id/info_player1_name"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/buttons"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:text="P1"
+                    android:textColor="@color/white"
+            />
+            <Chronometer
+
+                    android:id="@+id/info_time"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="timer"
+                    android:textColor="@color/white"
+                    android:background="@color/buttons"
+                    android:textSize="40sp"
+            />
+            <TextView
+                    android:id="@+id/info_player2_name"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textColor="@color/white"
+                    android:background="@color/buttons"
+                    android:text="P2"
+            />
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+            <TextView
+
+                    android:id="@+id/info_player1_score"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textSize="70sp"
+                    android:textColor="@color/white"
+                    android:background="@color/buttons"
+                    android:text="@string/player_one_score"
+
+                    android:inputType="number"/>
+            <TextView
+
+                    android:id="@+id/info_dash"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:text="-"
+                    android:textColor="@color/white"
+                    android:background="@color/buttons"
+                    android:gravity="center"
+                    android:textSize="70sp"
+            />
+            <TextView
+                    android:id="@+id/info_player2_score"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textSize="70sp"
+                    android:textColor="@color/white"
+                    android:background="@color/buttons"
+                    android:text="@string/player_two_score"
+                    android:inputType="number"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="0">
+
+            <Button
+
+                    android:id="@+id/btn_menu"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:background="@color/buttonsDarker"
+                    android:text="@string/back_to_menu"
+            />
+            <Button
+
+                    android:id="@+id/btn_reset"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:background="@color/buttonsDarker"
+                    android:text="@string/game_reset"
+
+            />
+        </LinearLayout>
+</LinearLayout>
